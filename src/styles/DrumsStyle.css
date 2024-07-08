@@ -1,0 +1,24 @@
+*{
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+
+.btn-tr{
+  width: 120px;
+  height: 80px;
+}
+button span{
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.btn.active {
+  border-color: black;
+  background-color: black;
+  color: white;
+}
+
+.form-check-input:hover{
+  cursor: pointer;
+}

@@ -1,0 +1,32 @@
+#quote-box{
+  max-width: 500px;
+  font-family: "Noto Sans", sans-serif;
+}
+
+#text{
+  font-weight: 400;
+  
+}
+
+#author{
+  font-weight: 200;
+  font-style: italic;
+}
+
+.fade-in {
+  opacity: 1;
+  transition: opacity 500ms;
+}
+
+.fade-out {
+  opacity: 0;
+  transition: opacity 500ms;
+}
+
+.bg-container {
+  transition: background-color 500ms;
+}
+
+.fade-container {
+  transition: background-color 500ms;
+}
