@@ -15,6 +15,7 @@ I decided to make all of them in just one single WebSite, doing this to practice
 
 ### Calculator
 Here I made 2 versions of the calculator, the one that fCC was asking to do (too buggy), and the "simple" one, where the number is updated after every operation simbol. 
+
 ![image](https://github.com/0Wits/FCC-front.End.Dev.Projects/assets/64272115/605faf5b-9006-4f11-ab01-793b3f3e249f)
 
 ### Pomodoro
