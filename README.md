@@ -2,7 +2,9 @@
 
 This is a bundle of all projects needed for the Front End Development Libraries Certificate. 
 
-I decided to make all of them in just one single WebSite, doing this to practice a little of React. To be honest, I didn't do all of it just myself, I used Chatgpt, but the code that GPT has done I read it and tried understood it with no problem ! 🙂. Always giving the the best instructions for the simplest solution. 
+I decided to make all of them in just one single WebSite, doing this to practice a little of React. To be honest, I didn't do all of it just myself, I used Chatgpt, but the code that GPT has done I read it until I understood it with no problem ! 🙂. 
+
+Always giving the the best instructions for the simplest solution. 
 
 ### Random Quote Machine
 ![image](https://github.com/0Wits/FCC-front.End.Dev.Projects/assets/64272115/b811abca-78a4-43ad-9b00-4023e1e2c282)
