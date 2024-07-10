@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+//import '../styles/navbar.css';
 
 function Navbar() {
   return (
@@ -15,34 +16,50 @@ function Navbar() {
               </Link>
             </li>
             <li className="nav-item d-none d-lg-block"><p className="nav-link">|</p></li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/randomqm">
-                Random QM
+            <li className="nav-item dropdown">
+              <Link className="nav-link dropdown-toggle" to="#" id="frontendDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Front End Projects
               </Link>
+              <ul className="dropdown-menu" aria-labelledby="frontendDropdown">
+                <li>
+                  <Link className="dropdown-item" to="/randomqm">Random QM</Link>
+                </li>
+                <li>
+                  <Link className="dropdown-item" to="/markdownprev">Markdown Previewer</Link>
+                </li>
+                <li>
+                  <Link className="dropdown-item" to="/drummachine">Drum Machine</Link>
+                </li>
+                <li>
+                  <Link className="dropdown-item" to="/calculator">Calculator</Link>
+                </li>
+                <li>
+                  <Link className="dropdown-item" to="/pomodoro">Pomodoro</Link>
+                </li>
+              </ul>
             </li>
             <li className="nav-item d-none d-lg-block"><p className="nav-link">|</p></li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/markdownprev">
-                Markdown Previewer
+            <li className="nav-item dropdown">
+              <Link className="nav-link dropdown-toggle" to="#" id="d3Dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                D3 Projects
               </Link>
-            </li>
-            <li className="nav-item d-none d-lg-block"><p className="nav-link">|</p></li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/drummachine">
-                Drum Machine
-              </Link>
-            </li>
-            <li className="nav-item d-none d-lg-block"><p className="nav-link">|</p></li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/calculator">
-                Calculator
-              </Link>
-            </li>
-            <li className="nav-item d-none d-lg-block"><p className="nav-link">|</p></li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/pomodoro">
-                Pomodoro
-              </Link>
+              <ul className="dropdown-menu" aria-labelledby="d3Dropdown">
+                <li>
+                  <Link className="dropdown-item" to="/barchart">Bar Chart</Link>
+                </li>
+                <li>
+                  <Link className="dropdown-item" to="/scatterplot">Scatterplot Graph</Link>
+                </li>
+                <li>
+                  <Link className="dropdown-item" to="/heatmap">Heat Map</Link>
+                </li>
+                <li>
+                  <Link className="dropdown-item" to="/choropleth">Choropleth Map</Link>
+                </li>
+                <li>
+                  <Link className="dropdown-item" to="/treemap">Treemap Diagram</Link>
+                </li>
+              </ul>
             </li>
           </ul>
         </div>
