@@ -1,70 +1,24 @@
-# Getting Started with Create React App
+# FreeCodeCamp Certification. Front End Development Libraries
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a bundle of all projects needed for the Front End Development Libraries Certificate. 
 
-## Available Scripts
+I decided to make all of them in just one single WebSite, doing this to practice a little of React. To be honest, I didn't do all of it just myself, I used Chatgpt, but the code that GPT has done I read it until I understood it with no problem ! 🙂. 
 
-In the project directory, you can run:
+Always giving the the best instructions for the simplest solution. 
 
-### `npm start`
+### Random Quote Machine
+![image](https://github.com/0Wits/FCC-front.End.Dev.Projects/assets/64272115/b811abca-78a4-43ad-9b00-4023e1e2c282)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Markdown Previewer 
+![image](https://github.com/0Wits/FCC-front.End.Dev.Projects/assets/64272115/9ba450c1-9ba4-442c-8e66-051454bb3e39)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Drum Machine
+![image](https://github.com/0Wits/FCC-front.End.Dev.Projects/assets/64272115/09c01865-f75f-4c25-9365-09a6f36a4fed)
 
-### `npm test`
+### Calculator
+Here I made 2 versions of the calculator, the one that fCC was asking to do (too buggy), and the "simple" one, where the number is updated after every operation simbol. 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![image](https://github.com/0Wits/FCC-front.End.Dev.Projects/assets/64272115/605faf5b-9006-4f11-ab01-793b3f3e249f)
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Pomodoro
+![image](https://github.com/0Wits/FCC-front.End.Dev.Projects/assets/64272115/aace3ccf-0904-4e2b-bb07-b38ff3924eb1)
