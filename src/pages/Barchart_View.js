@@ -1,10 +1,9 @@
 import React from 'react';
+import BarchartLogic from '../scripts/Barchart_Logic';
 
 function Barchart() {
   return (
-    <div>
-      <h1>Hello barchart!!</h1>
-    </div>
+    <BarchartLogic />
   );
 }
 

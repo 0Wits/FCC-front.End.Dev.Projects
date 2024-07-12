@@ -19,25 +19,28 @@ const LoadButtons = ({ switchOn, bankOn, volume }) => {
   let lp = document.getElementById("last-played"); 
 
   useEffect(() => {
-    setDisabled(!switchOn); 
-    document.addEventListener("keydown", handleKeyPress); 
-    return () => {
-      document.removeEventListener("keydown", handleKeyPress); 
+    const handleKeyPress = (e) => {
+      if (!switchOn) return;
+      const clip = audioClips.find(clip => clip.keyCode === e.keyCode);
+      if (clip) {
+        setActiveKey(clip.keyTrigger);
+        lp.textContent = bankOn ? clip.id2 : clip.id;
+        bankOn ? playSFX(clip.url2) : playSFX(clip.url);
+      }
+      setTimeout(() => {
+        setActiveKey(null);
+      }, 300);
     };
-  }, [switchOn, bankOn, volume]); 
-
-  const handleKeyPress = (e) => {
-    if (!switchOn) return;
-    const clip = audioClips.find(clip => clip.keyCode === e.keyCode); 
-    if (clip) {
-      setActiveKey(clip.keyTrigger);
-      lp.textContent = bankOn ? clip.id2 : clip.id; 
-      bankOn ? playSFX(clip.url2) : playSFX(clip.url); 
-    }
-    setTimeout(() => {
-      setActiveKey(null); 
-    }, 300);
-  };
+  
+    setDisabled(!switchOn);
+    document.addEventListener("keydown", handleKeyPress);
+  
+    return () => {
+      document.removeEventListener("keydown", handleKeyPress);
+    };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [switchOn, bankOn, volume]);
+  
 
   const handleButtonClick = (keyTrigger, id, id2, url, url2) => {
     if (disabled) return; 

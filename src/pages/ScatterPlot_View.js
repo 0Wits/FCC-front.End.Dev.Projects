@@ -1,10 +1,9 @@
 import React from 'react';
+import ScatterplotLogic from '../scripts/ScatterPlot_Logic';
 
 function ScatterPlot() {
   return (
-    <div>
-      <h1>Hello ScatterPlot</h1>
-    </div>
+    <ScatterplotLogic />
   );
 }
 

@@ -1,0 +1,39 @@
+/* src/styles/Scatterplot.module.css */
+.centeredContainer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 940px;
+  height: 600px;
+  margin-top: -270px; 
+  margin-left: -470px; 
+  background-color: white;
+  border: 2px solid black;
+  box-shadow: 0 0 20px 5px black;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+#chart {
+  width: 900px;
+  height: 460px;
+  margin: auto;
+  position: relative;
+}
+
+.tooltip {
+  position: absolute;
+  text-align: center;
+  width: auto;
+  height: auto;
+  padding: 8px;
+  font: 12px sans-serif;
+  background: lightyellow;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  pointer-events: none;
+  opacity: 0;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
