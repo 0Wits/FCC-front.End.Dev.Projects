@@ -1,9 +1,10 @@
 import React from 'react';
+import ChoropletLogic from '../scripts/Choroplet_Logic';
 
 function ChoroPlet() {
   return (
     <div>
-      <h1>Hello Choropleth</h1>
+      <ChoropletLogic />
     </div>
   );
 }

@@ -1,0 +1,54 @@
+.treemap-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tooltip-treemap {
+  position: absolute;
+  text-align: center;
+  padding: 10px;
+  width: auto;
+  height: auto;
+  background: #ffe066;
+  border: 1px solid #333;
+  border-radius: 5px;
+  pointer-events: none;
+  opacity: 0;
+}
+
+.tile {
+  stroke: #fff;
+  stroke-width: 1px;
+}
+
+.tile-text {
+  font-size: 10px;
+  text-anchor: start;
+}
+
+.legend {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  margin: 5px;
+}
+
+.legend-item rect {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.legend-item text {
+  font-size: 14px;
+  line-height: 20px;
+}

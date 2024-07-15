@@ -1,0 +1,27 @@
+.choroplet-container {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tooltip-choroplet {
+  position: absolute;
+  text-align: center;
+  padding: 10px;
+  width: 120px;
+  height: auto;
+  background: #ffe066;
+  border: 1px solid #333;
+  border-radius: 5px;
+  pointer-events: none;
+  opacity: 0;
+}
+
+#choroplet-chart {
+  width: 960px;
+  height: 600px;
+  margin: auto;
+  position: relative;
+}
